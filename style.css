@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(#171738 , #2E1760 );
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+
+    border-radius: 40px;
+    padding: 40px;
+    display: grid;
+    place-items: center;
+    background:linear-gradient(#006992 , #522ca3);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,6) ;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.7); 
+}
+input {
+    background-color: #2E1760 ;
+    width: 100%;
+    height: 30px;
+}
+.log{
+    font-size: 48px;
+}
+input:hover {
+    background: linear-gradient(#522ca3,#e9e5f1);
+    border-radius: 10px;
+    color: rgb(210, 210, 235);
+    box-shadow: 0 0 12px rgba(0, 255, 0, 1);
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.bruh{
+    color: #e9e5f1;
+}
+.small{
+    width: 100px;
+    font-size: 20px;
+}
+.align{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+input:focus, input[type="submit"]:hover {
+    box-shadow: 0 0 12px rgba(0, 255, 0, 1);
+} 
+li{
+    color: transparent; 
+    list-style-type: none;
+}
+details{
+    color: transparent;
+}
